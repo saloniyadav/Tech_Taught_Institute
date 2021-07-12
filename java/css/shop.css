@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+bold {
+  padding: 3%;
+  font-size: 3rem;
+  animation: fadeInAnimation ease 10s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.cart {
+  position: fixed;
+  top: 1.5rem;
+  right: 3rem;
+}
+
+
+strong {
+  position: fixed;
+  right: 0;
+  top: 30rem;
+  font-size: 2rem;
+  transform: rotate(90deg);
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+p{
+  width: 80%;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+.price{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  color: #b11226;
+  text-decoration: underline;
+}
+h3{
+  transform: rotate(270deg);
+  position: relative;
+  top:15rem;
+  right:4rem;
+  font-size: 1.5rem;
+
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* parallax */
+.parallax {
+  /* The image used */
+  background-image: url("../images/shop.jpeg");
+  /* Set a specific height */
+  min-height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 2%;
+}
+
+.parallax a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  font-size: 330%;
+  transition:
+}
+
+.parallax a:hover {
+  text-decoration: underline;
+  font-size: 400%;
+}
+
+@media screen and (max-width:800px) {
+  .column {
+    width: 40%;
+
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  bold {
+      font-size: 1.5rem;
+    }
+  strong {
+    display: none;
+  }
+}
+
+/* Style the counter cards */
+.card {
+
+  padding: 16px;
+  text-align: center;
+  background-color: #FFF;
+}

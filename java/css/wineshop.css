@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  color: #000;
+}
+bold {
+  position: fixed;
+  left: 0;
+  top: 25rem;
+  font-size: 2rem;
+  transform: rotate(90deg);
+  animation: fadeInAnimation ease 10s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.back-arrow {
+  position: absolute;
+  left: 10rem;
+  top: 3rem;
+}
+
+strong {
+  position: fixed;
+  right: 0;
+  top: 25rem;
+  font-size: 2.75rem;
+  transform: rotate(90deg);
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+  padding: 15%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card a{
+  text-decoration: none;
+  color: #fff;
+}
+.card a:hover{
+  color: #b11226;
+  text-decoration: underline;
+}
+.price spam {
+  font-size: 2rem;
+}
+.card {
+
+  padding: 16px;
+  text-align: center;
+  background-color: #FFF;
+}
+h3{
+  transform: rotate(270deg);
+  position: relative;
+  top:15rem;
+  right:4rem;
+  font-size: 1.5rem;
+
+}
+@media screen and (max-width:800px) {
+  .column {
+    width: 40%;
+  }
+  bold {
+    position: static;
+    padding: 8%;
+    font-size: 1.75rem;
+  }
+  .back-arrow {
+    left: 5rem;
+
+  }
+
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  bold {
+      font-size: 1.5rem;
+    }
+  strong {
+    display: none;
+  }
+  .back-arrow {
+    left: 1rem;
+
+  }
+}

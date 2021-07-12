@@ -1,0 +1,93 @@
+hr {
+  margin: 0
+}
+
+.heading {
+  background-image: url('../images/appealbg.jpg');
+  padding: 6%;
+}
+
+h1 {
+  color:000;
+  font-size: 3rem;
+}
+
+.heading hr {
+  background-color:#fff;
+  width: 40%;
+}
+
+.brew {
+  padding: 3rem 15%;
+}
+
+.brew p {
+  text-align: justify;
+}
+
+.brew h2 {
+  padding-top: 4rem;
+  font-size: 2rem;
+}
+
+.brew hr {
+  background-color: #fff;
+  height: 0.1rem;
+}
+
+.brewing-container, .brewing-info {
+  padding: 1.5rem 10%;
+}
+
+.brewing-container li {
+  list-style: none;
+}
+
+.brewing-container div {
+  height: 10px;
+  width: 14px;
+  background-color: #4173d8;
+  float: left;
+}
+
+.grapes, .process, .first-p {
+  padding: 1%;
+  width: 95%;
+  margin: auto;
+}
+
+.grapes, .process {
+  text-align: center;
+  height: 3rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.grapes {
+  background-color: #4173d8;
+}
+
+.process {
+  background-color: #C0B453;
+}
+
+.arrow {
+  text-align: center;
+  margin: 1rem 0
+}
+
+.grapes:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.process:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.first-p{
+  padding: 2% 8%;
+  background-color: #F0E9F9;
+  line-height: 1.5rem;
+  word-spacing: 0.1rem;
+}

@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(../images/registerbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 8%;
+}
+
+.login-image img{
+  width: 100%;
+}
+.login-form{
+  padding: 8%;
+  margin: 3%;
+}
+input[type=text], input[type=password], input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+
+.container {
+  padding: 0.5rem;
+}
+
+
+@media screen and (max-width:800px){
+  .login-form{
+    padding: 0;
+  }
+  .container {
+    padding: 0;
+  }
+
+}
+@media screen and (max-width:600px){
+  .login {
+    display: block;
+  }
+  .login-image{
+    display: none;
+  }
+}

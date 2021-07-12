@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/loginbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 8%;
+}
+
+.login-image img{
+  width: 100%;
+}
+.login-form{
+  padding: 8%;
+  margin: 3%;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+button {
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+
+.container {
+  padding: 0.5rem;
+}
+.container a{
+  text-decoration: none;
+  color:#fff;
+}
+.btn {
+  background: #7d0633;
+  background-image: -webkit-linear-gradient(top, #7d0633, #230004);
+  background-image: -moz-linear-gradient(top, #7d0633, #230004);
+  background-image: -ms-linear-gradient(top, #7d0633, #230004);
+  background-image: -o-linear-gradient(top, #7d0633, #230004);
+  background-image: linear-gradient(to bottom, #7d0633, #230004);
+  -webkit-border-radius: 27;
+  -moz-border-radius: 27;
+  border-radius: 27px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #7d0633;
+  background-image: -webkit-linear-gradient(top, #7d0633, #630a10);
+  background-image: -moz-linear-gradient(top, #7d0633, #630a10);
+  background-image: -ms-linear-gradient(top, #7d0633, #630a10);
+  background-image: -o-linear-gradient(top, #7d0633, #630a10);
+  background-image: linear-gradient(to bottom, #7d0633, #630a10);
+  text-decoration: none;
+}
+
+@media screen and (max-width:800px){
+  .login-form{
+    padding: 1%;
+  }
+  .container {
+    padding: 1%;
+  }
+
+}
+@media screen and (max-width:600px){
+  .login {
+    display: block;
+  }
+  .login-image{
+    display: none;
+  }
+}

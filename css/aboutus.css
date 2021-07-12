@@ -1,0 +1,69 @@
+body{
+  background-color: #D3D3D3;
+}
+.heading {
+  background-image: url('../images/appealbg.jpg');
+  padding: 6%;
+}
+
+.heading h1 {
+  color: #000;
+  font-size: 3rem;
+}
+.heading h2{
+  color: #fff
+}
+.main-container{
+  text-align: center;
+  padding: 4%;
+
+}
+.main-container p{
+width: 40%;
+font-size: 1.256rem;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 1rem;
+text-align: justify;
+}
+.main-container h1,h2{
+  color: #8c0034;
+  margin-top: 3%;
+}
+.img-bottle img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 1rem 0;
+   width: 40%;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 0;
+  width: 40%;
+  border: 1px solid #000;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+@media screen  and  (max-width:600px)
+{
+  .main-container{
+    text-align: center;
+    padding: 1%;
+  }
+.main-container  p{
+    width: 80%;
+    font-size: 0.95rem;
+  }
+  .img-bottle img{
+    width: 80%;
+  }
+
+}

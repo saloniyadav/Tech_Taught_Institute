@@ -1,0 +1,111 @@
+.heading{
+  background-image:url(../images/appealbg.jpg);
+  height: 20rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
+ 
+}
+.heading hr{
+  margin: 3px 0;
+  width: 15%;
+  background-color:  #5D4954;
+}
+.context {
+position: relative;
+padding: 6%;
+}
+.context-img{
+position: absolute;
+top: 5rem;
+right: 0;
+}
+.context-img img{
+  display: block;
+  width: 80%;
+  margin-bottom: 0.2rem;
+}
+.content-info p{
+text-align: justify;
+width: 40%;
+line-height: 1.5rem;
+}
+.content-info hr{
+  margin: 1rem 0;
+  width: 35%;
+  height: 0.1rem;
+  border-top: 0;
+  border-left: 0;
+  border-right:0;
+  background-color: #5D4954;
+}
+
+.history,.history-context2{
+  background-color:#d3d3d3;
+  padding: 1.5% 6%;
+}
+.history hr{
+  margin: 0;
+  width: 70%
+}
+.history img{
+  width : 35%;
+  margin-top: 1%;
+  margin-left: 6%;
+}
+.history p{
+  text-align: justify;
+  line-height: 1.5rem;
+}
+.history-context2 img{
+  float: right;
+  width : 16%;
+}
+.history-context2 p{
+  text-align: justify;
+  width: 60%;
+  line-height: 1.5rem;
+}
+.history-context2 hr{
+  margin: 0.2rem 0;
+  width: 100%;
+}
+@media screen and (max-width:920px){
+  .context {
+  padding: 3%;
+  }
+  .context-img{
+  position: static;
+  }
+  .content-info p{
+  width: 85%;
+  line-height: 1.5rem;
+  }
+  .context-img img{
+    display: inline;
+    width: 45%;
+  }
+  .content-info hr{
+    width: 80%;
+  }
+  .history-context2 img{
+    width : 40%;
+  }
+
+}
+@media screen and (max-width:450px)
+{
+  .history img{
+    width : 80%;
+    margin: 0
+  }
+  .history-context2 img{
+    float: inherit;
+    width : 80%;
+  }
+  .history-context2 p{
+    width: 90%;
+    line-height: 1.5rem;
+  }
+}

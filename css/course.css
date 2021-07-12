@@ -1,0 +1,196 @@
+body{
+  word-spacing: 0.01rem;
+}
+hr {
+  margin: 0
+}
+
+.heading {
+  background-image: url("../images/appealbg.jpg");
+  height: 20rem;
+  background-repeat: no-repeat;
+  padding: 5rem;
+  color: #000;
+}
+.heading h3,h1{
+  font-size: 3rem;
+}
+
+.heading hr {
+  background-color: #fff;
+  width: 40%;
+}
+
+.ingredients-container {
+  padding: 6%;
+  position: relative;
+}
+
+.ingredients-container p {
+  text-align: justify;
+  width: 38%;
+  word-spacing: 0.1rem;
+}
+
+.ingredients-container img {
+  position: absolute;
+  right: 15rem;
+  top: 2rem;
+  width: 30%;
+}
+
+.grapes {
+  position: relative;
+  background-color: #d3d3d3;
+  padding: 6%;
+}
+
+.grapes hr {
+  margin: 1rem 0 0 0;
+  width: 40%;
+}
+
+.grapes p {
+  text-align: justify;
+  width: 50%;
+  margin: 1rem 0 0 0;
+}
+
+.grapes img {
+  position: absolute;
+  right: 15rem;
+  top: 2rem;
+  width: 30%;
+}
+
+.water {
+  position: relative;
+  background-color: #fff;
+  padding: 6%;
+}
+
+.water hr {
+  margin: 1rem 0 0 0;
+  width: 40%;
+}
+
+.water p {
+  text-align: justify;
+  width: 50%;
+  margin: 1rem 0 0 0;
+}
+
+.water img {
+  position: absolute;
+  right: 15rem;
+  top: 2rem;
+  width: 30%;
+}
+
+.yeast {
+  text-align: justify;
+  position: relative;
+  background-color: #d3d3d3;
+  padding: 6%;
+}
+
+.yeast hr {
+  margin: 1rem 0 0 0;
+  width: 40%;
+}
+
+.yeast p {
+  text-align: justify;
+  width: 50%;
+  margin: 1rem 0 0 0;
+}
+
+.yeast img {
+  position: absolute;
+  right: 15rem;
+  top: 2rem;
+  width: 30%;
+}
+
+@media screen and (max-width:800px) {
+  .ingredients-container p {
+    width: 40%;
+  }
+
+  .ingredients-container img {
+    right: 5rem;
+    top: 8rem;
+    width: 40%;
+  }
+
+  .grapes p {
+    width: 40%;
+  }
+
+  .grapes img {
+    right: 5rem;
+    top: 8rem;
+    width: 40%;
+  }
+
+  .water p {
+    width: 40%;
+  }
+
+  .water img {
+    right: 5rem;
+    top: 8rem;
+    width: 40%;
+  }
+
+  .yeast p {
+    width: 40%;
+  }
+
+  .yeast img {
+    right: 5rem;
+    top: 8rem;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:430px) {
+  .ingredients-container p {
+    width: 90%;
+  }
+
+  .ingredients-container img {
+    position: static;
+    width: 70%;
+  }
+
+  .grapes p {
+    width: 90%;
+    margin: 1rem 0 0 0;
+  }
+
+  .grapes img {
+    position: static;
+    width: 70%;
+  }
+
+  .water p {
+    width: 90%;
+    margin: 1rem 0 0 0;
+  }
+
+  .water img {
+    position: static;
+    width: 70%;
+  }
+
+  .yeast p {
+    width: 90%;
+    margin: 1rem 0 0 0;
+  }
+
+  .yeast img {
+    position: static;
+    width: 70%;
+  }
+}

@@ -1,0 +1,126 @@
+.how-to-appeal{
+  margin-left: 4.375rem;
+  margin-top: 0.5rem;
+  position:relative;
+
+}
+.appeal-context{
+  margin-top: 1rem;
+  margin-left: 80px;
+  margin-bottom: 3rem;
+  padding: 5%;
+  margin-right: 11%;
+
+}
+.appeal-context hr{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  width: 5%;
+}
+.appeal-context p{
+  text-align: justify;
+  width: 30%;
+}
+.appeal-context img{
+  position: absolute;
+  width: 25%;
+  right: 18rem;
+  top : 12rem;
+}
+
+/* CARDS STARTS */
+#how-to{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/apealbg.jpg);
+  background-size: cover;
+  position: relative;
+  padding-top: 1rem;
+  color: #fff;
+}
+.card-info p{
+  text-align: justify;
+  margin: 0 0 9px;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px 20px;
+  margin: 50px;
+
+}
+.how-content{
+  margin-top: 0.5rem;
+  width: 85%;
+}
+.how-content2,.how-content3{
+  margin-top: 0.5rem;
+  width: 85%;
+  height: 12rem;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1215px){
+  .column {
+      margin: 30px;
+  }
+
+}
+/* Responsive columns */
+@media screen and (max-width: 768px) {
+  .column {
+    width: 80%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left:20px;
+  }
+
+  .how-to-appeal{
+    margin-left: 2.5rem;
+
+  }
+  .appeal-context{
+    margin-left: 0;
+    margin-right: 20%;
+  }
+
+  .appeal-context hr{
+    width: 30%;
+  }
+  .appeal-context p{
+    width: 80%;
+  }
+  .appeal-context img{
+    position:static;
+    margin-top: 2rem;
+    width: 80%;
+
+  }
+  .how-content2,.how-content3{
+    margin-top: 0.5rem;
+    width: 85%;
+    height: 20rem;
+  }
+
+}
+@media screen and (max-width:430px){
+  .how-content2,.how-content3{
+    height: 10rem;
+  }
+
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 #E5E5E5;
+  padding: 16px;
+  text-align: center;
+
+}
